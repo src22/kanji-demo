@@ -1,0 +1,46 @@
+
+body {
+    margin: 100px 150px 100px 80px;
+}
+
+p,h1
+{
+	color: #077;	
+	font-family: 'Dejavu sans';
+}
+
+
+a
+{
+	color: #0aa;	
+	font-family: 'Dejavu sans';
+}
+
+
+.stroke_order_diagram--outer_container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.stroke_order_diagram--current_path {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.stroke_order_diagram--existing_path {
+    fill: none;
+    stroke: #aaa;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.stroke_order_diagram--path_start {
+    fill: rgba(255,0,0,0.7);
+    stroke: none;
+}
+
