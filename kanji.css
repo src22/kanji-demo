@@ -1,18 +1,18 @@
 
 body {
-    margin: 100px 150px 100px 80px;
+    margin: 0px 0px 400px 400px;
 }
 
 p,h1
 {
-	color: #077;	
+	color: #077;
 	font-family: 'Dejavu sans';
 }
 
 
 a
 {
-	color: #0aa;	
+	color: #0aa;
 	font-family: 'Dejavu sans';
 }
 
@@ -42,5 +42,13 @@ a
 .stroke_order_diagram--path_start {
     fill: rgba(255,0,0,0.7);
     stroke: none;
+}
+
+.stroke_order_diagram--wide_path {
+    fill: none;
+    stroke: #0aa;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
